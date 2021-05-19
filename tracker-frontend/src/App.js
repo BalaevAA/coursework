@@ -16,8 +16,10 @@ function App() {
     <GlobalProvider>
       <Header />
       <Balance />
-      <Profit />
-      <DoughnutChart />
+      <div className="container5">
+        <Profit />
+        <DoughnutChart />
+      </div>
       <div className="container">
         <History />
         <AddTransaction />

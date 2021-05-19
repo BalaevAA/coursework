@@ -29,7 +29,7 @@ const data = {
 };
 
 const options = {
-  cutoutPercentage: 70
+  radius:200
 }
 
 export const DoughnutChart = () => {
@@ -39,6 +39,7 @@ export const DoughnutChart = () => {
         data={data}
         width={100}
         height={100}
+        options={options}
       />
     </>
   );
