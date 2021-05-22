@@ -144,6 +144,7 @@ input[type='number'] {
   list-style-type: style type;
   padding: 10;
   margin-bottom: 10px;
+  overflow-y: scroll;
 }
 
 .historyHead {
