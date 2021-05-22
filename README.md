@@ -4,7 +4,7 @@
 ## запуск
 
     cd tracker-backend
-    npm init -y
+    npm install
     cd tracker-frontend
-    npm init -y
-    npm start`
+    npm install
+    npm start
