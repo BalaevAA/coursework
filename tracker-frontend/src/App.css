@@ -47,11 +47,7 @@ body {
   border-radius:20px;
 }
 
-.container5 {
-  padding:1em;
-  display:grid;
-  grid-template-columns: 50% 50%;
-}
+
 
 h1 {
   letter-spacing: 1px;

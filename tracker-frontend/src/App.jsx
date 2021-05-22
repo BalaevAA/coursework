@@ -6,7 +6,6 @@ import { History } from './components/History';
 import { AddTransaction } from './components/AddTransaction';
 import { DoughnutChart } from './components/Diagram';
 
-
 import { GlobalProvider } from './context/GlobalState';
 
 import './App.css';
@@ -16,10 +15,8 @@ function App() {
     <GlobalProvider>
       <Header />
       <Balance />
-      <div className="container5">
-        <Profit />
-        <DoughnutChart />
-      </div>
+      <Profit />
+      <DoughnutChart />
       <div className="container">
         <History />
         <AddTransaction />

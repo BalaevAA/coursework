@@ -1,5 +1,6 @@
 import React, {useState, useContext} from 'react'
 import { GlobalContext } from '../context/GlobalState';
+import { Category } from './Category';
 
 export const AddTransaction = () => {
   const [text, setText] = useState('');
@@ -34,6 +35,8 @@ export const AddTransaction = () => {
           >
           <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="На какую сумму..." />
         </div>
+        <label htmlFor="text">Выберите категорию</label>
+        <Category />
         <button className="btn">Добавить</button>
       </form>
     </div>
